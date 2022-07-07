@@ -4,8 +4,8 @@ services:
     container_name: app
     restart: always
     environment:
-      - MONGO_URI=mongodb://mongo:27017/dummyDictionary
-      - DEBUG=dummyDictionary:*
+      - MONGO_URI=mongodb://mongo:27017/ForGot
+      - DEBUG=ForGot:*
       - JWT_SECRET=Awerqw@#$$WER!@#$$!@%ETWEQR@!!asda123
     build: .
     ports:
